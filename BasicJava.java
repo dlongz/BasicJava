@@ -6,6 +6,7 @@ import javax.swing.text.html.HTMLDocument.RunElement;
 
 public class BasicJava {
 
+    // Print 1-255 
     // Write a method that prints all the numbers from 1 to 255.
     public void allNumFrom() {
         for (int i = 1; i < 256; i++ ) {
@@ -14,6 +15,7 @@ public class BasicJava {
         
     }
     
+    // Print odd numbers between 1-255
     // Write a method that prints all the odd numbers from 1 to 255.
     public void getOddNums() {
         for (int i = 1; i < 256; i = i+2 ) {
@@ -23,6 +25,7 @@ public class BasicJava {
     } 
 
     /* 
+    Sigma of 255 AKA Sum to 255
     Write a method that creates and eventually returns a sum variable
     that adds up all the numbers from 1 to 255.
     */
@@ -34,10 +37,11 @@ public class BasicJava {
         return sum;
     } 
 
-        /*
-        Given an array X, say [1,3,5,7,9,13], write a method that would iterate 
-        through each member of the array and print each value on the screen.
-        */
+    /*
+    Iterating through an array
+    Given an array X, say [1,3,5,7,9,13], write a method that would iterate 
+    through each member of the array and print each value on the screen.
+    */
     public void iterateThrough(ArrayList x) {
         // ArrayList<Integer> arr = new ArrayList<Integer>();
         for (int i = 0; i < x.size();i++) {
@@ -46,6 +50,7 @@ public class BasicJava {
     }
 
     /*
+    Find Max
     Write a method (sets of instructions) that takes any array and 
     prints the maximum value in the array. Your method should also work 
     with a given array that has all negative numbers (e.g. [-3, -5, -7]), 
@@ -63,7 +68,8 @@ public class BasicJava {
         return max;
     }
 
-    /* 
+    /*
+    Array with Odd Numbers
     Write a method that creates an array 'y' that contains all the odd numbers between 1 to 255. 
     When the method is done, 'y' should have the value of [1, 3, 5, 7, ... 255].
     */
@@ -81,7 +87,10 @@ public class BasicJava {
         return y;
     }
 
+    /*****Ninja Bonuses (Optional):*****/
+
     /* 
+    Get Average
     Write a method that takes an array, and prints the AVERAGE of the values in the array. 
     For example for an array [2, 10, 3], your method should print an average of 5. 
     Again, make sure you come up with a simple base case and write instructions to solve that base case first, 
@@ -145,6 +154,8 @@ public class BasicJava {
         return arr;
     }
 
+    /*****Sensei Bonuses (Optional):*****/
+    
     /*
     Max, Min, and Average
     Given any array x, say [1, 5, 10, -2], write a method that returns an array with the maximum number in the array, the minimum value in the array, 
